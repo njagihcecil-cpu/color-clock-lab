@@ -9,7 +9,7 @@
   display: flex;
   place-items: center;
   justify-content: center;
-  background-color: #f0f0ff;
+  background-color: #282830;
   overflow: hidden;
 }
 
@@ -18,14 +18,14 @@
   width: 520px;
   height: 520px;
   border-radius: 12px;
-  background: #f0f0ff;
+  background: #282830;
   animation: pulse 4s ease-in-out infinite;
 }
 
 .clock-card {
   position: relative;
-  background: #f0f0ff;
-  border: 1px solid #06b6d4;
+  background: #2f0104;
+  border: 1px solid #0f0235;
   border-radius: 24px;
   padding: 56px 72px;
   text-align: center;
@@ -36,7 +36,7 @@
   font-size: 0.7rem;
   font-weight: 500;
   letter-spacing: 0.25em;
-  color: #06b6d4;
+  color: #000405;
   margin-bottom: 24px;
   text-transform: uppercase;
 }
@@ -45,22 +45,9 @@
 .time {
   font-weight: 900;
   letter-spacing: 0.05em;
-  color: #06b6d4;
+  color: #1d025d;
 }
 
-/* Thin dividing line between time and date */
-.divider {
-  width: 60px;
-  height: 2px;
-  margin: 28px auto;
-  border-radius: 2px;
-  opacity: 0.7;
-}
-
-/* The date text below the divider */
 .date {
-  font-size: 1rem;
-  font-weight: 400;
-  color: #06b6d4;
-  letter-spacing: 0.03em;
+  color: #e9e8ed;
 }
